@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="XML_Practice">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(localdb)\ProjectsV13:PERRY\Larry">
+          <Created>2018-06-01T19:00:46.8730718-04:00</Created>
+          <Type>SQL</Type>
+          <Server>(localdb)\ProjectsV13</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="PERRY\SANDBOX:PERRY\Larry">
+          <Created>2018-05-06T09:57:35.2750977-04:00</Created>
+          <Type>SQL</Type>
+          <Server>PERRY\SANDBOX</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Create_ProductTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\ProjectsV13:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\ProjectsV13</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Create_ProductTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_XML_Practice_db.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\ProjectsV13:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\ProjectsV13</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Create_XML_Practice_db.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateSchemaCollection.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PERRY\SANDBOX:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PERRY\SANDBOX</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateSchemaCollection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="flexAttributes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\ProjectsV13:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\ProjectsV13</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>flexAttributes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="flexElements.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\ProjectsV13:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\ProjectsV13</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>flexElements.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FLWOR.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\ProjectsV13:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\ProjectsV13</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FLWOR.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GetAuditRecords.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PERRY\SANDBOX:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PERRY\SANDBOX</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GetAuditRecords.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GetByFLWOR.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PERRY\SANDBOX:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PERRY\SANDBOX</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GetByFLWOR.sql</FullPath>
+        </FileNode>
+        <FileNode Name="XmlToTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PERRY\SANDBOX:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>PERRY\SANDBOX</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>XmlToTable.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
