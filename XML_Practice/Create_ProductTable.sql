@@ -11,14 +11,21 @@ create table dbo.Products
 	,constraint PK_Products primary key (productid)
 );
 
-declare @flexdata xml;
+declare @product1flexdata xml, @product2flexdata xml;
 
-set @flexdata =
+set @product1flexdata =
 '<flexset name="set 1">
-	<flexfield name="field 1">field 1 data</flexfield>
-	<flexfield name="field 2">field 2 data</flexfield>
+	<flexfield name="field 1">Product 1, field 1 data</flexfield>
+	<flexfield name="field 2">Product 1, field 2 data</flexfield>
+</flexset>'
+;
+
+set @product2flexdata =
+'<flexset name="set 1">
+	<flexfield name="field 1">Product 2, field 1 data</flexfield>
+	<flexfield name="field 2">Product 2, field 2 data</flexfield>
 </flexset>'
 ;
 
 insert into dbo.Products (productname, productflexdata)
-	values ('Product 1',@flexdata), ('Product 2', null), ('Product 3', null);
+	values ('Product 1',@product1flexdata), ('Product 2', @product2flexdata), ('Product 3', null);

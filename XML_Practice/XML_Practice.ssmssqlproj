@@ -43,6 +43,12 @@
           <AssociatedConnUserName />
           <FullPath>Create_XML_Practice_db.sql</FullPath>
         </FileNode>
+        <FileNode Name="CreateFlexDefinitionsTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\ProjectsV13:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\ProjectsV13</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateFlexDefinitionsTable.sql</FullPath>
+        </FileNode>
         <FileNode Name="CreateSchemaCollection.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PERRY\SANDBOX:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>PERRY\SANDBOX</AssociatedConnSrvName>
