@@ -79,6 +79,12 @@
           <AssociatedConnUserName />
           <FullPath>GetByFLWOR.sql</FullPath>
         </FileNode>
+        <FileNode Name="GetProductData.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\ProjectsV13:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\ProjectsV13</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GetProductData.sql</FullPath>
+        </FileNode>
         <FileNode Name="XmlToTable.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:PERRY\SANDBOX:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>PERRY\SANDBOX</AssociatedConnSrvName>
