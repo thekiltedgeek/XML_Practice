@@ -1,6 +1,8 @@
 use XML_Practice;
 go
 
+drop table if exists dbo.FlexDefinitions;
+
 create table dbo.FlexDefinitions
 (
 	id int not null identity(1,1) primary key,
