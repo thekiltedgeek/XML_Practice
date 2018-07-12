@@ -8,6 +8,7 @@ create table dbo.Products
 	productid int not null identity(1,1)
 	,productname nvarchar(25) not null
 	,productflexdata xml null
+	,jsonflexdata nvarchar(max) null
 	,constraint PK_Products primary key (productid)
 );
 
