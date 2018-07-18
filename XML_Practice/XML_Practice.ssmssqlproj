@@ -109,6 +109,12 @@
           <AssociatedConnUserName />
           <FullPath>GetProductData.sql</FullPath>
         </FileNode>
+        <FileNode Name="InsertJSONFlex.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\ProjectsV13:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\ProjectsV13</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>InsertJSONFlex.sql</FullPath>
+        </FileNode>
         <FileNode Name="JSON_Path.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\ProjectsV13:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(localdb)\ProjectsV13</AssociatedConnSrvName>

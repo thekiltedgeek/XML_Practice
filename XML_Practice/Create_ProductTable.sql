@@ -12,7 +12,9 @@ create table dbo.Products
 	,constraint PK_Products primary key (productid)
 );
 
-declare @product1flexdata xml, @product2flexdata xml;
+declare
+	@product1flexdata xml
+	,@product2flexdata xml;
 
 set @product1flexdata =
 '<flexset name="set 1">
